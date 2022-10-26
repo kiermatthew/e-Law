@@ -51,8 +51,9 @@ body{
 .colors{
     display: grid;
     gap: 55px 55px;
-    width: 1000px;
+    width: 75%;
     margin: 50px auto;
+    place-items:  center;
     grid-template-columns: auto auto auto auto auto auto auto;
 }
 .color{
@@ -77,10 +78,10 @@ footer p{
 
 @media only screen and (max-width: 768px) {
     .main h1{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
     .main p{
-        font-size: .8rem;
+        font-size: 1rem;
         width: 90%;
     }
     .color-picker{
@@ -88,30 +89,30 @@ footer p{
         margin-bottom: 50px;
     }
     .color-picker .title{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
     .color-picker .sub-title{
-        font-size: .8rem;
+        font-size: 1rem;
     }
     .colors{
         display: grid;
-        gap: 25px 25px;
-        width: 250px;
+        gap: 20px 20px;
+        width: 90%;
         margin: 30px auto;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto auto auto;
         place-items:  center;
     }
     .color{
         text-align: center;
-        width: 50px;
-        height: 50px;
+        width: 60px;
+        height: 60px;
     }
     .color label{
-        font-size: .6rem;
+        font-size: .7rem;
         position: relative;
-        top: 40px;
+        top: 55px;
     }
     footer p{
-        font-size: .7rem;
+        font-size: .9rem;
     }
-  }
+}
